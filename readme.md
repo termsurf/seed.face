@@ -26,6 +26,13 @@ consumption.
 
 For more related open community data projects, see [`seed`](https://github.com/wavebond/seed).
 
+## Project Structure
+
+The fonts are divided into 2 folders:
+
+1. `import`: This is where the original source font files are stored, so we have a way to get back to the original if the optimization/cleanup process messes anything up.
+2. `export`: This is where the optimized/cleaned font files as `.woff2` are stored. They are generated from the import fonts. These are the fonts you should download for your project.
+
 ## Data Sources
 
 We collect data from a variety of places. Here is a brief overview of some of the data sources we have currently used.
